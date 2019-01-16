@@ -2,7 +2,6 @@ var axios = require('axios');
 var { api_key } = require('./api_key')
 
 var name = 'Arun';
-var key = 'pRPLCejozFwCHFbVCR';
 
 var url = `https://gender-api.com/get?name=${name}&key=${api_key.key}`;
 
